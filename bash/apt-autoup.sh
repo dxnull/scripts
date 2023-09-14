@@ -1,4 +1,7 @@
 #!/bin/bash
+# Simple script to automatically update/upgrade system with APT and automatically accept all prompts.
+
+# Set REBOOT variable to false by default, change by using the -reboot flag.
 REBOOT=false
  
 while [ -n "$1" ]
